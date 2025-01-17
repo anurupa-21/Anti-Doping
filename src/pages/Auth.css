@@ -1,0 +1,210 @@
+/* General Styles */
+.auth-container, .terms-container, .privacy-container, .forgot-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.auth-box, .terms-container, .privacy-container, .forgot-password-container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  max-height: 500px;
+  text-align: center;
+  overflow-y: auto;
+}
+
+/* Auth Page Styles */
+.auth-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+.auth-tagline {
+  font-size: 16px;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.auth-submit {
+  padding: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-submit:hover {
+  background-color: #218838;
+}
+
+.auth-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgb(0, 106, 255);
+  color:white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-google-img {
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+}
+
+.auth-google:hover {
+  background-color: #357ae8;
+}
+
+.auth-toggle {
+  font-size: 14px;
+  color: white;
+}
+
+.auth-toggle span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.auth-forgot-password {
+  font-size: 14px;
+  color: #007bff;
+}
+
+.auth-forgot-password a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.auth-terms {
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-terms a {
+  color: #0091ffd6;
+  text-decoration: none;
+}
+
+/* New styles for Terms & Privacy checkbox and text visibility */
+.auth-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-checkbox-container input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.auth-checkbox-container label {
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-terms p {
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-terms p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Pages (Terms of Service, Privacy Policy, Forgot Password) Styles */
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 16px;
+  color: white;
+}
+
+.forgot-password-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.forgot-password-container input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.forgot-password-container button {
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forgot-password-container button:hover {
+  background-color: #0056b3;
+}
+
+.terms-container, .privacy-container {
+  max-width: 600px;
+}
+
+.terms-container p, .privacy-container p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.agree{
+  color:white;
+}
+.terms{
+  color:#00ffff;
+}
+.privacy{
+  color:#00ffff;
+}

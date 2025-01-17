@@ -1,0 +1,106 @@
+/* General styles for Privacy page */
+body.hide-navbar .navbar {
+  display: none; /* Hides the navbar on the Terms page */
+}
+.privacy-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  display: block; /* Ensure everything inside stacks vertically */
+  text-align: left; /* Ensure text aligns to the left */
+}
+
+.privacy-container h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.privacy-container .intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.privacy-container h2 {
+  font-size: 24px;
+  color: #222;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.privacy-container p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.privacy-container p:last-of-type {
+  margin-bottom: 40px; /* Add more space at the bottom */
+}
+
+.privacy-container h2::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #3498db; /* Blue accent */
+  margin-bottom: 15px;
+}
+
+/* Style for the OK button */
+.ok-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 40px auto;
+  transition: background-color 0.3s ease;
+}
+
+.ok-button:hover {
+  background-color: #2980b9;
+}
+
+/* Optional: Add some responsive adjustments */
+@media (max-width: 768px) {
+  .privacy-container {
+      padding: 20px;
+  }
+
+  .privacy-container h1 {
+      font-size: 28px;
+  }
+
+  .privacy-container h2 {
+      font-size: 20px;
+  }
+
+  .privacy-container p {
+      font-size: 14px;
+  }
+
+  .intro {
+      font-size: 16px;
+  }
+
+  .ok-button {
+      font-size: 14px;
+  }
+}

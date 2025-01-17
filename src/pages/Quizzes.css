@@ -1,0 +1,78 @@
+/* Quizzes.css */
+.quiz-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+.hint {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button:hover:not(:disabled) {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  background-color: #d3f2f3; /* Light color when selected */
+  border-color: #4caf50;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.submit {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button:hover:not(:disabled) {
+  background-color: #e0e0e0;
+}
+

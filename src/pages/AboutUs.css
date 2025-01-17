@@ -1,0 +1,82 @@
+/* About Us Page CSS */
+.about-us-container {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color:#333;  /* Black background for the entire page */
+    color: #fff;             /* White text color */
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left {
+    order: -1;
+  }
+  
+  .right {
+    order: 1;
+  }
+  .about-us{
+    color: rgb(9, 140, 200);
+  }
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-paragraph {
+    font-size: 18px;
+    color: #fff; /* White text in paragraphs */
+    line-height: 1.6;
+  }
+  
+  /* Footer Styling */
+/* About Us Page Footer */
+.about-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .about-footer p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+    }
+  }  
+  
+  
