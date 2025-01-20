@@ -1,0 +1,93 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212; /* A dark gray background for a softer look */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  .cricket-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: linear-gradient(135deg, #1f1f1f, #000); /* Gradient for header */
+    border-radius: 8px;
+  }
+  
+  .cricket-header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #f4f4f4; /* Slightly lighter text */
+  }
+  
+  .cricket-header p {
+    font-size: 1.2rem;
+    color: #bbb; /* Light gray for subtitle */
+  }
+  
+  /* Container for the Resource Cards */
+  .resources-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: space-between; /* Adjusted to evenly distribute cards */
+    gap: 10px; /* Reduced gap for tighter alignment */
+    margin-top: 40px;
+    padding: 20px 0; /* Adjusted padding */
+    width: 100%; /* Full width */
+    max-width: 980px; /* Increased max-width slightly to avoid too tight a fit */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Each Resource Card Styling */
+  .resource-card {
+    background-color: #1e1e1e; /* Slightly lighter than background */
+    padding: 15px;
+    width: 160px; /* Compact card width */
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow for depth */
+  }
+  
+  .resource-card img {
+    width: 100%;
+    height: 120px; /* Compact image height */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .resource-card h3 {
+    font-size: 1.2rem; /* Adjusted heading size */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .resource-card p {
+    font-size: 0.9rem; /* Smaller text for description */
+    margin-bottom: 20px;
+    color: #ddd; /* Lighter text for description */
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-8px); /* Slight hover effect */
+    background-color: #333;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+  
+  .resource-card a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resource-card a:hover {
+    text-decoration: underline;
+    color: #3498db; /* Blue color on hover for links */
+  }
+  

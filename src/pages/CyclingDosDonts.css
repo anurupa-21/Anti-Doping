@@ -1,0 +1,113 @@
+.dos-donts-page {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  .dos-donts-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .dos-donts-header h1 {
+    font-size: 2.5rem;
+    color: #f4f4f4;
+  }
+  
+  .dos-donts-header p {
+    font-size: 1.2rem;
+    color: #bbb;
+  }
+  
+  .dos-donts-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .dos-section,
+  .donts-section {
+    width: 48%;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f4f4f4;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    line-height: 1.6;
+    opacity: 0; /* Initially hide list items */
+    animation: slideIn 0.5s ease-in forwards;
+  }
+  
+  .dos-item,
+  .donts-item {
+    animation-delay: 0.2s; /* Delay for each item */
+  }
+  
+  .dos-item:nth-child(2),
+  .donts-item:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .dos-item:nth-child(3),
+  .donts-item:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .dos-item:nth-child(4),
+  .donts-item:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .dos-item:nth-child(5),
+  .donts-item:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  .dos-item:nth-child(6),
+  .donts-item:nth-child(6) {
+    animation-delay: 1.2s;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Slide In Animation */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* For mobile responsiveness */
+  @media (max-width: 768px) {
+    .dos-donts-content {
+      flex-direction: column;
+    }
+  
+    .dos-section,
+    .donts-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

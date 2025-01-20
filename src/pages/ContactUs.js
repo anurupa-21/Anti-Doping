@@ -161,19 +161,19 @@ const ContactUs = () => {
         <p>Follow us on:</p>
         <div className="social-media-footer">
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="download.png" alt="Instagram" className="social-icon-footer" />
+            <img src="instagram.jpg" alt="Instagram" className="social-icon-footer" />
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src="download (1).png" alt="Facebook" className="social-icon-footer" />
+            <img src="facebook.jpg" alt="Facebook" className="social-icon-footer" />
           </a>
           <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-            <img src="download (2).png" alt="YouTube" className="social-icon-footer" />
+            <img src="utube.jpg" alt="YouTube" className="social-icon-footer" />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="download (3).png" alt="X" className="social-icon-footer" />
+            <img src="X.jpg" alt="X" className="social-icon-footer" />
           </a>
           <a href="https://www.threads.net" target="_blank" rel="noopener noreferrer">
-            <img src="download (4).png" alt="Threads" className="social-icon-footer" />
+            <img src="thread.jpg" alt="Threads" className="social-icon-footer" />
           </a>
         </div>
       </footer>

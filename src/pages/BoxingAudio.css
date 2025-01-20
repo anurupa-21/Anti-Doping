@@ -1,0 +1,67 @@
+.athletics-audio-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+  }
+  
+  .athletics-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .athletics-header h1 {
+    font-size: 2.5em;
+    color: white;
+  }
+  
+  .athletics-header p {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .audio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-height: 500px; /* Set a max height to make the container smaller */
+    overflow: hidden;  /* Prevent content from overflowing */
+    padding-bottom: 10px; /* Reduce bottom padding to save space */
+  }
+  
+  .audio-card {
+    background-color: #f5f5f5;
+    padding: 15px; /* Reduce padding to make the card smaller */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .audio-card h3 {
+    font-size: 1.2em;  /* Reduce font size */
+    color: #333;
+    margin-bottom: 10px; /* Add some margin between title and content */
+  }
+  
+  .audio-card iframe {
+    width: 100%;
+    height: 200px; /* Set a smaller height for the iframe */
+    border-radius: 8px;
+  }
+  
+  .resource-link a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px; /* Adjust padding for a more compact button */
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 1em; /* Slightly smaller text size */
+    margin-top: 10px; /* Add space between iframe and button */
+  }
+  
+  .resource-link a:hover {
+    background-color: #0056b3;
+  }
+  
