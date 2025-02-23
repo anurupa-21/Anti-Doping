@@ -38,6 +38,9 @@ body {
   color: #666;
   margin-bottom: 25px;
 }
+.quiz-container p{
+  color:black;
+}
 
 .timer {
   font-size: 1.2rem;
@@ -94,12 +97,12 @@ body {
 }
 
 .success-message {
-  color: #28a745;
+  color: #28a745 !important;
   font-weight: bold;
 }
 
 .error-message {
-  color: #dc3545;
+  color: #dc3545 !important;
   font-weight: bold;
 }
 
@@ -134,7 +137,7 @@ body {
 .score {
   margin-top: 15px;
   font-size: 1rem;
-  color: #555;
+  color: gold !important;
 }
 
 .sport-select {
@@ -158,4 +161,8 @@ body {
 
 .start-button:hover {
   background-color: #218838;
+}
+.correct-answer
+{
+  color:#555;
 }

@@ -42,7 +42,7 @@ const ContactUs = () => {
             <h2>Follow Us On</h2>
             <p className="social-media-description">
                Stay connected with us across all platforms for the latest updates, 
-               <p>news, and exclusive offers. Follow us and join the community.</p>
+               <p className="social-media-description" >news, and exclusive offers. Follow us and join the community.</p>
             </p>
             <div className="social-media-icons">
               <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">

@@ -1,83 +1,113 @@
 /* About Us Page CSS */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Playwrite+IN:wght@100..400&display=swap');
+
+/* General Styling */
 .about-us-container {
-    padding: 50px;
-    font-family: Arial, sans-serif;
-    background-color:#333;  /* Black background for the entire page */
-    color: #fff;             /* White text color */
-  }
-  
-  .about-section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-  
-  .about-content {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .left {
-    order: -1;
-  }
-  
-  .right {
-    order: 1;
-  }
-  .about-us{
-    color: rgb(9, 140, 200);
-  }
-  .about-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .about-paragraph {
-    font-size: 18px;
-    color: #fff; /* White text in paragraphs */
-    line-height: 1.6;
-  }
-  
-  /* Footer Styling */
-/* About Us Page Footer */
+  padding: 50px;
+  font-family: 'Macondo', Arial, sans-serif; /* Default sans-serif font for the entire page */
+  background-color: #333; /* Black background for the entire page */
+  color: #fff; /* White text color */
+}
+
+/* About Section Styling */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.about-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.left {
+  order: -1;
+}
+
+.right {
+  order: 1;
+}
+
+.about-us {
+  color: rgb(9, 140, 200); /* Light blue accent for headings */
+  font-family: 'Mocando', cursive;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for images */
+}
+
+.about-paragraph {
+  font-size: 18px;
+  font-family: Arial, sans-serif; /* Standard font for paragraphs */
+  color: #fff; /* White text for paragraph content */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Footer Styling */
 .about-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
+  background-color: #333; /* Darker background for footer */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.about-footer p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: rgb(9, 140, 200);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
     text-align: center;
-    width: 100%;
-    
   }
-  
-  .about-footer p {
-    font-size: 20px;
+
+  .about-content {
     margin-bottom: 20px;
   }
-  
-  .social-media-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+
+  .about-image {
+    margin-bottom: 20px;
   }
-  
-  .social-icon {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  
-  .social-icon:hover {
-    transform: scale(1.2);
-  }
-  
-  /* Mobile Responsiveness */
-  @media (max-width: 768px) {
-    .about-section {
-      flex-direction: column;
-    }
-  }  
-  
-  
+}

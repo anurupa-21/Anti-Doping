@@ -65,8 +65,14 @@
 /* General Body Styling */
 /* General Body Styling */
 /* General Body Styling */
+/* Importing the Google Fonts */
+/* Importing the Google Fonts */
+/* Import Fonts */
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Playwrite+IN:wght@100..400&display=swap');
+
 .home {
-  font-family: Arial, sans-serif;
+  font-family: 'Macondo', cursive; /* Applies imported font */
 }
 
 /* Home Page Body */
@@ -111,7 +117,7 @@
 }
 
 .footer-link {
-  color: orange;
+  color: orange !important;
   text-decoration: none;
 }
 
@@ -123,15 +129,14 @@
   margin-top: 20px;
 }
 
+/* Ensure icons use a compatible font */
 .social-icon {
-  width: 1px;
-  height: 1px;
+  font-family: Arial, sans-serif !important; /* Forces icons to use a font that supports them */
+  width: 24px;
+  height: 24px;
   margin: 0 10px;
- 
 }
 
 .social-icon:hover {
   opacity: 0.7;
 }
-
-

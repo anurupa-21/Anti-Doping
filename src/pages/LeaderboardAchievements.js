@@ -26,7 +26,8 @@ const LeaderboardAchievements = () => {
   return (
     <div className="leaderboard-achievements-container">
       <div className="leaderboard-section">
-        <h1 className="leaderboard-section-h1" >See Where You Are!
+      
+        <h1 className="leaderboard-section-h1" > <img className="leaderboard-section-h1-img" src="medal.jpg" alt="Player One" />See Where You Are!
           
         <img className="leaderboard-section-h1-img" src="medal.jpg" alt="Player One" /></h1> 
         
@@ -90,7 +91,4 @@ const LeaderboardAchievements = () => {
 };
 
 export default LeaderboardAchievements;
-
-
-
 
